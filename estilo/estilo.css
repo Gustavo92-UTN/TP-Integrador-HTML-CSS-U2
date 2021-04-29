@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* @Gustavo Apaza Huanca */
+/*---------------------------------------------------------------------------------- HEADER */
+img{
+    width: 100%;
+}
+
+#logo{
+    width: 500px;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+
+header{
+    height: 860px;
+}
+
+#primerNav{
+    width: 420px;
+    /*margin: 0 20px 0 auto; /* ARRIBA | DERECHA | ABAJO | IZQUIERDA */
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    /* border: 1px solid red; */
+}
+
+#primerNav a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin: 8px;
+}
+
+#primerNav a:hover, #segundoNav a:hover {
+    color: orange;
+}
+
+.textoHeader{
+    font-size: 40px;
+    color: white;
+    width: 600px;
+    position: relative;
+    bottom: 300px;
+    left: 100px;
+}
+/*---------------------------------------------------------------------------------- MAIN */
+h2{
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+#primerH2{
+    font-size: 30px;
+    color: gray;
+}
+
+.contenedorDeEtiquetas, .contenedorDeAnuncios{
+    width: 1000px;
+    margin: auto;
+}
+
+.etiqueta{
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    margin: 0 15px;
+}
+
+.icono{
+    display: block;
+    height: 100px;
+    margin: 10px;
+}
+
+.subtitulo{
+    margin: 20px;
+}
+/*---------------------------------------------------------------------------------- TARJETAS */
+.tarjeta{
+    display: inline-block;
+    width: 300px;
+    margin: 0 14px;
+    background: rgb(214, 209, 209);
+    border: 1px solid rgb(126, 126, 126);
+}
+
+.detalles{
+    width: 280px;
+    margin: 20px auto 0;
+}
+
+.precio{
+    color: rgb(92, 151, 33);
+    font-weight: bold;
+}
+
+.contenedorDeIconos{
+    width: 250px;
+    margin: 10px auto;
+}
+
+.iconoInmueble{
+    display: inline-block;
+    width: 40px;
+    margin: 10px;
+}
+
+.cantidadInmueble{
+    display: inline-block;
+    width: 10px;
+    position: relative;
+    top: -15px;
+}
+
+.botonVerPropiedad{
+    background-color: rgb(233, 106, 15);
+    width: 280px;
+    margin: 10px auto 20px; /* ARRIBA | IZQ Y DER | ABAJO */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.botonVerPropiedad a, #botonVerTodas a{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botonVerPropiedad a:hover, #botonVerTodas a:hover, #vinculoSection a:hover{
+    color: black;
+}
+
+#cajaExterna{
+    width: 970px;
+    height: 100px;
+    margin: auto;
+}
+
+#botonVerTodas{
+    background-color: rgb(107, 153, 15);
+    color: white;
+    width: 100px;
+    padding: 15px 15px;
+    margin-left: auto;
+    position: relative;
+    top: 40px;
+}
+/*---------------------------------------------------------------------------------- SECTION */
+section{
+    height: 470px;
+}
+
+section #tituloSection{
+    text-align: left;
+    font-size: 30px;
+    width: 500px;
+    color: white;
+    position: relative;
+    bottom: 400px;
+    left: 100px;
+
+}
+
+section #textoSection{
+    width: 800px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    bottom: 350px;
+    left: 100px;
+}
+
+section #vinculoSection{
+    background-color: rgb(233, 106, 15);
+    font-size: 17px;
+    text-align: center;
+    width: 150px;
+    padding: 15px 0;
+    position: relative;
+    bottom: 300px;
+    left: 100px;
+}
+
+section #vinculoSection a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/*---------------------------------------------------------------------------------- FOOTER */
+footer{
+    background-color: rgb(116, 114, 114);
+    padding-top: 30px;
+    margin-bottom: 0;
+    z-index: 2;
+    position: relative;
+    bottom: 230px;
+}
+
+#segundoNav{
+    width: 400px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+#segundoNav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 10px;    
+}
+
+#firma{
+    color: white;
+    width: 300px;
+    margin-left: auto;
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+}
